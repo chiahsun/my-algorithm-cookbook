@@ -1,0 +1,22 @@
+= My Algorithm Cookbook
+:doctype: book
+:publication-type: book
+:toc: left
+:toclevels: 3 
+:source-highlighter: highlight.js 
+:source-language: python 
+:icons: font
+
+== Notation
+
+=== Problem Difficulty Level
+
+* ★☆☆☆☆: Easy, ready to practice
+* ★★☆☆☆: Simple
+* ★★★☆☆: Intermediate: takes some thought
+* ★★★★☆: Hard: takes some struggle, take hours
+* ★★★★★: Expert: Combine different skills, may take days, or come back later
+
+== Basic
+
+include::math.adoc[]

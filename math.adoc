@@ -1,0 +1,16 @@
+=== Math
+
+==== GCD (Greatest Common Divisor)
+
+link:./src/gcd.py[src/gcd.py]
+
+[source,python]
+----
+include::src/gcd.py[lines=1..10]
+----
+
+
+.Practice
+****
+★☆☆☆☆ https://www.interviewbit.com/problems/greatest-common-divisor/[InterviewBit:greatest-common-divisor ]
+****
