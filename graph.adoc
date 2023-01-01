@@ -1,0 +1,48 @@
+
+=== Graph
+
+==== A* Search
+
+https://www.redblobgames.com/pathfinding/a-star/introduction.html[Really friendly interactive introduction for the evolution of A* search]
+
+https://en.wikipedia.org/wiki/A*_search_algorithm[Wiki: A* search algorithm
+]
+
+http://theory.stanford.edu/~amitp/GameProgramming/[Amit's A* Pages]
+
+http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html[A* Search]
+
+Consider \(f = g + h\) as the total cost,
+
+* \(g\): the real cost (the steps already taken)
+* \(h\): the **estimated** cost (the **estimated** left steps to reach the target)
+
+For Dijkstra, \(h = 0\), we only consider the steps already taken. Although it gives the shortest path, it explores too many states not need to.
+
+For the greedy(best-first) algorithm, \(g = 0\), we only consider the estimated steps left to take but it doesn't always give the shortest path.
+
+When we consider both actual cost and estimated left cost and if the estimated left cost \(h\) is always less than the actual left cost \(h^* \), we are guaranteed to process \(f\) before termination since \(f = g + h \leq g + h^* \) and it's impossible to stop at any distance less than \(g + h^* \) since it's the actual shortest path.
+
+Consider an ordinary BFS problem, any candidate cell that has an estimated cost increased would be put a higher penalty so it would be put at the latter of the priority queue and we won't explore it unless all those estimated total cost less than it are processed.
+
+A usual metric for 2D grids is Manhattan distance.
+
+
+link:./src/astar.py[src/astar.py]
+
+[source,python]
+----
+include::src/astar.py[lines=5..47]
+----
+
+link:./src/astar.out[src/astar.out]
+
+[source,txt]
+----
+include::src/astar.out[lines=1..33]
+----
+
+.Practice
+****
+★★★☆☆ https://leetcode.com/problems/open-the-lock[LeetCode: 752. Open the Lock]
+****

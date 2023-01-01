@@ -6,6 +6,7 @@
 :source-highlighter: highlight.js 
 :source-language: python 
 :icons: font
+:stem: <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 
 == Notation
 
@@ -15,9 +16,13 @@
 * ★★☆☆☆: Simple
 * ★★★☆☆: Intermediate: takes some thought
 * ★★★★☆: Hard: takes some struggle, take hours
-* ★★★★★: Expert: Combine different skills, may take days, or come back later
+* ★★★★★: Expert: Combine different skills, may take days, and you may come back later
 
 == Basic
 
 include::math.adoc[]
 include::bit.adoc[]
+
+== Intermediate
+
+include::graph.adoc[]
