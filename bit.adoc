@@ -1,0 +1,18 @@
+=== Bit Manipulation
+
+==== Most Significant Bit
+
+link:./src/msb.py[src/msb.py]
+
+[source,python]
+----
+include::src/msb.py[lines=1..22]
+----
+
+.Exercise
+****
+★★★☆☆ https://leetcode.com/problems/bitwise-and-of-numbers-range[LeetCode: 201. Bitwise AND of Numbers Range]
+****
+
+===== See Also
+http://graphics.stanford.edu/~seander/bithacks.html#IntegerLogObvious[Find the log base 2 of an integer with the MSB N set]

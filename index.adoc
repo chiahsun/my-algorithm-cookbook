@@ -20,3 +20,4 @@
 == Basic
 
 include::math.adoc[]
+include::bit.adoc[]
