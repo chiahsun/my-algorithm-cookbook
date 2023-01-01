@@ -27,7 +27,7 @@ def find_shortest_path(G, algo=0, debug=False):
     q, visited = queue.PriorityQueue(), {S}
     h = estimated_cost(S, T)
     q.put((cost_function(0, h, algo=algo), 0, S))
-    D[S[0]][S[1]] = (cost_function(0, h), 0, h)
+    D[S[0]][S[1]] = (cost_function(0, h, algo=algo), 0, h)
     while not q.empty():
         f, g, P = q.get()
         if P == T:
