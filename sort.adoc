@@ -1,0 +1,29 @@
+
+=== Sort
+
+==== Quick Sort
+
+3-way quick sort
+
+https://algs4.cs.princeton.edu/lectures/keynote/23Quicksort.pdf
+
+https://algs4.cs.princeton.edu/23quicksort/
+
+https://algs4.cs.princeton.edu/23quicksort/Quick3way.java.html
+
+https://docs.rs/algs4/0.3.0/algs4/quicksort/index.html
+
+link:./src/qsort.py[src/qsort.py]
+
+[source,python]
+----
+include::src/qsort.py[lines=4..24]
+----
+
+
+
+
+.Practice
+****
+★★☆☆☆ https://practice.geeksforgeeks.org/problems/quick-sort/1[GeeksforGeeks: Quick Sort]
+****

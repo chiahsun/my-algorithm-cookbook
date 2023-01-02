@@ -26,3 +26,4 @@ include::bit.adoc[]
 == Intermediate
 
 include::graph.adoc[]
+include::sort.adoc[]
