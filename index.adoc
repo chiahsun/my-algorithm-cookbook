@@ -27,3 +27,4 @@ include::bit.adoc[]
 
 include::graph.adoc[]
 include::sort.adoc[]
+include::trie.adoc[]

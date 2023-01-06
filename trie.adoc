@@ -1,0 +1,13 @@
+
+=== Trie
+
+.Practice
+****
+★☆☆☆☆ https://practice.geeksforgeeks.org/problems/trie-insert-and-search0651/1[GeeksforGeeks: Trie | (Insert and Search)]
+****
+
+.Exercise
+****
+★★★☆☆ https://www.interviewbit.com/problems/shortest-unique-prefix/[InterviewBit:Shortest Unique Prefix]
+
+****
