@@ -1,0 +1,11 @@
+==== KMP Algorithm
+
+Find a string in another string.
+
+
+.Practice
+****
+★★★☆☆ https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/[LeetCode::28. Find the Index of the First Occurrence in a String]
+
+★★★☆☆ https://leetcode.com/problems/longest-happy-prefix/[LeetCode::1392. Longest Happy Prefix]
+****

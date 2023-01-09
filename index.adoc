@@ -18,6 +18,8 @@
 * ★★★★☆: Hard: takes some struggle, take hours
 * ★★★★★: Expert: Combine different skills, may take days, and you may come back later
 
+* (⭐) Classic problem
+
 == Basic
 
 include::math.adoc[]
@@ -27,4 +29,7 @@ include::bit.adoc[]
 
 include::graph.adoc[]
 include::sort.adoc[]
+
+=== String
 include::trie.adoc[]
+include::kmp.adoc[]
