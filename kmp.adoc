@@ -2,10 +2,17 @@
 
 Find a string in another string.
 
+link:./src/kmp.py[src/kmp.py]
+
+[source,python]
+----
+include::src/kmp.py[lines=8..25]
+----
+
 
 .Practice
 ****
-★★★☆☆ https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/[LeetCode::28. Find the Index of the First Occurrence in a String]
-
 ★★★☆☆ https://leetcode.com/problems/longest-happy-prefix/[LeetCode::1392. Longest Happy Prefix]
+
+★★★☆☆ https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/[LeetCode::28. Find the Index of the First Occurrence in a String]
 ****
