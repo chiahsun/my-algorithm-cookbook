@@ -6,7 +6,7 @@ link:./src/kmp.py[src/kmp.py]
 
 [source,python]
 ----
-include::src/kmp.py[lines=8..25]
+include::src/kmp.py[lines=8..27]
 ----
 
 

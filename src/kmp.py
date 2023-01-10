@@ -5,7 +5,7 @@ def built_in_index(haystack: str, needle: str):
         return -1
 
 
-def kmp_index(haystack, needle):
+def kmp_index(haystack, needle, trace=False):
     N = len(needle)
     fallback = [-1] * N
     for i in range(1, N):
@@ -14,6 +14,8 @@ def kmp_index(haystack, needle):
             prev = fallback[prev]
         if c == needle[prev + 1]:  # Reuse python array[-1]
             fallback[i] = prev + 1
+    if trace:
+        print('fallback: ', fallback)
     pos = -1
     for i, c in enumerate(haystack):
         while pos >= 0 and c != needle[pos + 1]:
@@ -26,5 +28,21 @@ def kmp_index(haystack, needle):
 
 
 if __name__ == "__main__":
+    # abac
+    # --0-
     s1, s2 = "abababac", "abac"
-    assert kmp_index(s1, s2) == built_in_index(s1, s2)
+    assert kmp_index(s1, s2, trace=True) == built_in_index(s1, s2)
+
+    # ababac
+    # --012-
+    s1, s2 = "abababac", "ababac"
+    assert kmp_index(s1, s2, trace=True) == built_in_index(s1, s2)
+
+    # aaabaaabaaaab
+    # -0100123456
+    # 0123456
+    #     6->2->1
+    #            23
+    s1, s2 = "abababac", "aaabaaabaaaab"
+    # print(kmp_index(s1, s2, trace=True))
+    assert kmp_index(s1, s2, trace=True) == built_in_index(s1, s2)
