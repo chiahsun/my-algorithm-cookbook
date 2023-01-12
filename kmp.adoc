@@ -16,3 +16,10 @@ include::src/kmp.py[lines=8..27]
 
 ★★★☆☆ https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/[LeetCode::28. Find the Index of the First Occurrence in a String]
 ****
+
+.Exercise
+****
+★★★★☆ https://practice.geeksforgeeks.org/problems/last-match1928/1[GeeksforGeeks: Last Match]
+
+★★★★☆ https://leetcode.com/problems/shortest-palindrome/[LeetCode: 214. Shortest Palindrome]
+****

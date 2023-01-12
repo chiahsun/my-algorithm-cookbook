@@ -12,7 +12,7 @@ def kmp_index(haystack, needle, trace=False):
         c, prev = needle[i], fallback[i - 1]
         while prev >= 0 and c != needle[prev + 1]:
             prev = fallback[prev]
-        if c == needle[prev + 1]:  # Reuse python array[-1]
+        if c == needle[prev + 1]:
             fallback[i] = prev + 1
     if trace:
         print('fallback: ', fallback)

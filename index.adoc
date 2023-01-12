@@ -33,3 +33,7 @@ include::sort.adoc[]
 === String
 include::trie.adoc[]
 include::kmp.adoc[]
+
+== Advanced
+=== String
+include::suffix_array.adoc[]

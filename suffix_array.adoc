@@ -1,0 +1,20 @@
+
+==== Suffix Array
+
+
+link:./src/suffix_array.py[src/suffix_array.py]
+
+[source,python]
+----
+include::src/suffix_array.py[lines=2..14]
+----
+
+[source,python]
+----
+include::src/suffix_array.py[lines=24..39]
+----
+
+.Practice
+****
+★★★★☆ (⭐) https://leetcode.com/problems/longest-duplicate-substring/[1044. Longest Duplicate Substring]
+****
