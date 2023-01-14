@@ -29,6 +29,7 @@ include::bit.adoc[]
 
 include::graph.adoc[]
 include::sort.adoc[]
+include::union_find.adoc[]
 
 === String
 include::trie.adoc[]

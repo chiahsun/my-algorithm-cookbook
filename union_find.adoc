@@ -1,0 +1,13 @@
+=== Union Find
+
+link:./src/union_find.py[src/union_find.py]
+
+[source,python]
+----
+include::src/union_find.py[lines=1..19]
+----
+
+.Exercise
+****
+★★★☆☆ https://leetcode.com/problems/lexicographically-smallest-equivalent-string/[LeetCode: 1061. Lexicographically Smallest Equivalent String]
+****
