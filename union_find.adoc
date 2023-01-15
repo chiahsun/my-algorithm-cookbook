@@ -10,4 +10,6 @@ include::src/union_find.py[lines=1..19]
 .Exercise
 ****
 ★★★☆☆ https://leetcode.com/problems/lexicographically-smallest-equivalent-string/[LeetCode: 1061. Lexicographically Smallest Equivalent String]
+
+★★★★☆ https://leetcode.com/problems/number-of-good-paths/[LeetCode: 2421. Number of Good Paths]
 ****
