@@ -1,0 +1,6 @@
+=== Dynamic Programming
+
+.Exercise
+****
+★★★☆☆ https://leetcode.com/problems/flip-string-to-monotone-increasing/[LeetCode: 926. Flip String to Monotone Increasing]
+****
