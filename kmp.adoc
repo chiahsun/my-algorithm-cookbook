@@ -22,4 +22,6 @@ include::src/kmp.py[lines=8..27]
 ★★★★☆ https://practice.geeksforgeeks.org/problems/last-match1928/1[GeeksforGeeks: Last Match]
 
 ★★★★☆ https://leetcode.com/problems/shortest-palindrome/[LeetCode: 214. Shortest Palindrome]
+
+★★★★☆ https://leetcode.com/problems/remove-all-occurrences-of-a-substring/[LeetCode: 1910. Remove All Occurrences of a Substring]
 ****

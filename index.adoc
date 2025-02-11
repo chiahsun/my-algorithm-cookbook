@@ -4,6 +4,7 @@
 :toc: left
 :toclevels: 3 
 :source-highlighter: highlight.js 
+:highlightjs-theme: night-owl
 :source-language: python 
 :icons: font
 :stem: <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
