@@ -7,7 +7,14 @@
 
 ==== Longest Common Subsequence
 
-See https://web.ntnu.edu.tw/~algo/Subsequence2.html[Subsequence]
+link:./src/lcs.py[src/lcs.py]
+
+[source,python]
+----
+include::src/lcs.py[lines=3..26]
+----
+
+See also https://web.ntnu.edu.tw/~algo/Subsequence2.html[Subsequence]
 
 .Practice
 ****
