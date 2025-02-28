@@ -4,3 +4,17 @@
 ****
 ★★★☆☆ https://leetcode.com/problems/flip-string-to-monotone-increasing/[LeetCode: 926. Flip String to Monotone Increasing]
 ****
+
+==== Longest Common Subsequence
+
+See https://web.ntnu.edu.tw/~algo/Subsequence2.html[Subsequence]
+
+.Practice
+****
+★★☆☆☆ https://leetcode.com/problems/longest-common-subsequence/[LeetCode: 1143. Longest Common Subsequence]
+****
+
+.Exercise
+****
+★★★☆☆ https://leetcode.com/problems/shortest-common-supersequence/[LeetCode: 1092. Shortest Common Supersequence ]
+****
