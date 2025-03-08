@@ -1,0 +1,18 @@
+
+
+=== Sliding Window
+
+
+You can also take it as a special case of two pointer algorithm.
+
+https://www.geeksforgeeks.org/window-sliding-technique/[Geeks for Geeks: Windoe sliding technique]
+
+* When there are keywords such as consecutive or fixed size continuous subarray, it may fall into these kinds of problems.
+
+A variant: https://codility.com/media/train/13-CaterpillarMethod.pdf[Caterpillar method]
+
+.Practice
+****
+★★☆☆☆ https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks[LeetCode: 2379. Minimum Recolors to Get K Consecutive Black Blocks]
+****
+

@@ -3,4 +3,8 @@
 
 https://codility.com/media/train/3-PrefixSums.pdf[Introduction for prefix sums by Codility]
 
+.Practice
+****
 ★★★☆☆ https://leetcode.com/problems/product-of-the-last-k-numbers/description/[LeetCode: 1352. Product of the Last K Numbers]
+****
+

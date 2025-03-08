@@ -26,6 +26,7 @@
 include::math.adoc[]
 include::bit.adoc[]
 include::prefix_sum.adoc[]
+include::sliding_window.adoc[]
 
 == Intermediate
 
